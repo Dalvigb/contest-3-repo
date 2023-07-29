@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>July-3rd contest</title>
+</head>
+
+<body>
+    <!--The navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark fs-2 fw-bolder heading" href="#">Complex UI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav list">
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" aria-current="page" href="#">Gallery</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex form">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!--The slideshow -->
+    <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active head">
+                <img src="https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100" alt="IronMan">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First Iimage Title</h5>
+                    <p>first image description</p>
+                    <button class="btn btn-primary rounded">call to action</button>
+                </div>
+                
+            </div>
+            <div class="carousel-item head">
+                <img src="https://images.unsplash.com/photo-1682685797661-9e0c87f59c60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100" alt="Captain America">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second Image Title</h5>
+                    <p>Second image description</p>
+                    <button class="btn btn-primary rounded">call to action</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+<!--The flexciew -->
+    <div class="d-flex flex-wrap justify-content-center align-items-center m-3">
+        <div class="m-2 box">
+            <img src="https://images.unsplash.com/photo-1682687982141-0143020ed57a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top"  alt="...">
+            <center><p class="p-3">short description</p></center>
+        </div>
+        <div class="m-2 box">
+            <img src="https://plus.unsplash.com/premium_photo-1690557857491-eba0bf4733c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="...">
+                <center>  <p class="p-3">short description</p></center>
+        </div>
+        <div class="m-2 box">
+            <img src=https://plus.unsplash.com/premium_photo-1675348351049-3af664982b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="...">
+                <center>  <p class="p-3">short description</p></center>
+        </div>
+    </div>
+    
+<!--The gallery -->
+
+    <div class="gallery mx-auto mb-5">
+        <div class="gallery-1 mb-5">
+            <div class="first images">
+                <img src="https://images.unsplash.com/photo-1690061521457-f3a7688aa277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="MS Dhoni">
+            </div>
+            <div class="second images">
+                <img src="https://images.unsplash.com/photo-1690371316561-9462fef3de91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="third images">
+                <img src="https://images.unsplash.com/photo-1690358160928-77534aa298b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="fourth images">
+                <img src="https://images.unsplash.com/photo-1690484813045-d27df776bc8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="fifth images">
+                <img src="https://images.unsplash.com/photo-1690358160928-77534aa298b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="sixth images">
+                <img src="https://images.unsplash.com/photo-1682685796063-d2604827f7b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="seventh images">
+                <img src="https://images.unsplash.com/photo-1690619488977-e6fa7a629fba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="eighth images">
+                <img src="https://images.unsplash.com/photo-1690484813045-d27df776bc8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+            <div class="ninth images">
+                <img src="https://images.unsplash.com/photo-1690484813045-d27df776bc8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="random">
+            </div>
+        </div>
+    </div>
+
+<!--The cards -->
+    <div class="d-flex flex-wrap justify-content-center align-items-center m-3">
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://plus.unsplash.com/premium_photo-1681243945753-b5992a3452ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="random image">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Card description</p>
+                <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="random image">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Card description</p>
+                <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1661956601031-4cf09efadfce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top" alt="random image">
+            <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Card description</p>
+                <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+        </div>
+    </div>
+
+<!--The footer -->
+    <footer>
+        <div class="d-flex justify-content-between align-items-center flex-wrap foot">
+            <div>
+                <h3>Useful Links</h3>
+                <p><a href="https://www.espncricinfo.com/">www.espncricinfo.com</a></p>
+                <p><a href="https://www.espncricinfo.com/">www.espncricinfo.com</a></p>
+                <p><a href="https://www.espncricinfo.com/">www.espncricinfo.com</a></p>
+            </div>
+            <div>
+                <h3>More Links</h3>
+                <p><a href="https://www.espncricinfo.com/">www.espncricinfo.com</a></p>
+                <p><a href="https://www.espncricinfo.com/">www.espncricinfo.com</a></p>
+                <p><a href="https://www.espncricinfo.com/">www.espncricinfo.com</a></p>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p><a class="text-dark text-decoration-none"
+                        href="mailto: abc@gmail.com">dalvigb05@gmail.com</a></p>
+                <p><a class="text-dark text-decoration-none" href="tel:+4733378901">Phone:+91-8625867938</a></p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center flex-wrap foot">
+            <div>
+                <h6>© 2023 Complex UI. All Rights Reserved.</h6>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
